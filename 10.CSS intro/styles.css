@@ -1,0 +1,18 @@
+div {
+  color: blue;
+  font-size: 20px;
+}
+
+span {
+  color: bisque;
+}
+
+p {
+  color: blue;
+}
+
+div,
+span,
+p {
+  border: 3px solid red;
+}
