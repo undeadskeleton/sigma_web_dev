@@ -25,6 +25,24 @@
         * {
             margin: 0;
             padding: 0;
+            border: 1px solid #000;
+        }
+
+        /* Pseudo Selector */
+        a:visited {
+            color: yellow
+        }
+
+        a:link {
+            color: green
+        }
+
+        a:active {
+            background-color: red;
+        }
+
+        a:hover {
+            background-color: aqua;
         }
     </style>
 </head>
@@ -39,6 +57,15 @@
     <div>
         <p>This para is inside a div</p>
     </div>
+    <div>
+        <a href="https://www.google.com">Go to google</a>
+        <a href="https://www.facebook.com">Go to Facebook</a>
+    </div>
+    <main>
+        <p>I am First Child</p>
+        <p>I am Second Child</p>
+        <p>I am Third Child</p>
+    </main>
 </body>
 
 </html>
